@@ -1,17 +1,29 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: Rahul Sahotay
+description: Rahul Sahotay works as DevOps Engineer at Lands' End
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+username: Rahul Sahotay
+user_description: Hello! I'm Rahul, a DevOps engineer based in Madision, WI who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+
+# Hello! I'm Brittany, a software engineer based in Boston, MA who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+
+# Shortly after graduating from Northeastern University, I joined the engineering team at Upstatement where I work on a wide variety of interesting and meaningful projects on a daily basis.
+
+# Here are a few technologies I've been working with recently:
+
+# JavaScript (ES6+)
+# HTML & (S)CSS
+# React
+# Vue
+# Node.js
+# Express
+# NativeScript
+user_title: DevOps Engineer
+email: mailto:rahul@rahulsahotay.com
+github_username:  sahotay
 
 # Google-analytics
 google-analytics:

@@ -21,6 +21,7 @@
     margin: 0;
   }
   li {
+    display:inline-block;
     color: $main;
     font-size: 1.1rem;
   }
@@ -32,17 +33,58 @@
 .contents {
   @media only screen and (min-width: $cut) {
     margin-left: 0;
-    width: 48%;
+    // width: 100%;
   }
 }
 
 .contents-right {
   @media only screen and (min-width: $cut) {
-    float: right;
     margin-top: -5%;
-    width: 48%;
+    // width: 100%;
   }
 }
+.skills {
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+  }
+  
+  ul li:before { /* the custom styled bullets */
+    background-color: #14CCBB;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    height: .5em;
+    width: .5em;
+    margin: .25em .25em 0;
+  }
+}
+
+.sub_skills {
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul li {
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+  }
+  ul li:not(:last-child)::after {
+    color: rgb(204, 20, 20);
+    content: "\00b7";
+    height: .5em;
+    width: .5em;
+    margin: .25em .25em 0;
+  }
+}
+
 .images-right {
   @media only screen and (min-width: $cut) {
     float: right;
