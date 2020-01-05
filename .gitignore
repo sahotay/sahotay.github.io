@@ -2,6 +2,13 @@ _site
 .sass-cache
 node_modules
 .DS_STORE
-.sass-cache/
-.jekyll-cache/
+### Jekyll ###
+_site
+.sass-cache
 .jekyll-metadata
+Gemfile.lock
+
+
+### Gulp ###
+package.json
+/node_modules/
