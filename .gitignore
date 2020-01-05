@@ -2,4 +2,6 @@ _site
 .sass-cache
 node_modules
 .DS_STORE
-**/.jekyll-cache
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
