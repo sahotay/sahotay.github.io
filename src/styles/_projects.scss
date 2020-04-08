@@ -85,6 +85,29 @@
   }
 }
 
+.tasks {
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+  
+  ul li:before { /* the custom styled bullets */
+    background-color: #14CCBB;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 14px;
+    margin-bottom: 2px;
+    height: .5em;
+    width: .5em;
+    margin: .25em .25em 0;
+  }
+}
+
 .images-right {
   @media only screen and (min-width: $cut) {
     float: right;
